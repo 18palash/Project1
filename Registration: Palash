@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <style>
+
+            .heading{
+                background-color: #424949;
+            }
+            .label{
+                text-align: right;
+                width: 30%;
+                background-color: gainsboro;
+            }
+             h1{
+                text-align: center;
+                 color: #fdfefe;
+
+             }
+
+            #main{
+                height: 80%;
+                width:100%;
+                align-self: center;
+
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div id="header">
+
+        </div>
+
+        <div id="main">
+            <table border="0" align="center" cellpadding="10" style="background-color: lavenderblush" >
+                <form method="post" action="#">
+                    <tr>
+                        <td class="heading" colspan="2"><h1>Regestration Form</h1></td>
+                    </tr>
+
+                    <tr>
+                        <td class="label" >Name:</td>
+                        <td><input type="text" placeholder="Enter First Name" name="Fname">&nbsp;&nbsp;
+                            <input type="text" placeholder="Enter Last Name" name="Lname"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="label"> Date of Birth: </td>
+                        <td><input type="date" name="dob"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="label"> Gender: </td>
+                        <td><input type="radio" name="gender" value="male" >Male<br>
+                            <input type="radio" name="gender" value="female">Female
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="label"> Mobile: </td>
+                        <td><input type="tel" name="mobile"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="label"> Email: </td>
+                        <td><input type="email" name="email"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="label"> Password: </td>
+                        <td><input type="password" name="pwd"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="label"> Country: </td>
+                        <td><select name="country">
+                            <option>India</option>
+                            <option>Jamaica</option>
+                            <option>Canada</option>
+                            <option>Romania</option>
+                            <option>Spain</option>
+                            <option>USA</option>
+                        </select></td>
+                    </tr>
+
+                    <tr>
+                        <td class="label"> Hobbies: </td>
+                        <td><input type="checkbox" name="">Dancing
+                            <input type="checkbox" name="">Singing
+                            <input type="checkbox" name="">Bike Riding<br>
+                            <input type="checkbox" name="">Book Reading
+                            <input type="checkbox" name="">Travelling
+                            <input type="checkbox" name=""> Video Games
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="label"> Bio: </td>
+                        <td><textarea rows="3" cols="35"></textarea></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" align="center"> <input type="submit" name="submit" value="Submit"> </td>
+
+                    </tr>
+                </form>
+            </table>
+
+        </div>
+
+        <div id="footer">
+
+        </div>
+    </body>
+</html>
